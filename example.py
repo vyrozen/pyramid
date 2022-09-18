@@ -65,8 +65,8 @@ t.hideturtle()
 
 
 for y in range (1,min-max+2):
-    x_init = 0-((length_px*min)/2)
-    y_init = 0-((wide_px*n)/2)
+    x_init = 0-((length_px*min)/2) #titik awal turtle (x)
+    y_init = 0-((wide_px*n)/2) #titik awal turtle (y)
     for x in range (1, min+1):
         if y == 1 or y == n :
             t.color('#BC4A3C')
